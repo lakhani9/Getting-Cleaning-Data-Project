@@ -6,7 +6,8 @@
 # Load libraries
 #
 
-library(plyr)
+library(dplyr)
+library(data.table)
 
 # 0. Downloading and preparing the files
 # Download file, check for prior copy and if none, save for further processing
